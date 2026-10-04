@@ -4,15 +4,18 @@
 <meta charset="UTF-8">
 <title>Räkna på svenska — count in Swedish</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="favicon.png">
 <meta name="description" content="Learn to count in Swedish: numbers, ordinals, the clock and fractions, written out and spoken. No account, no ads.">
 <style>
   :root {
-    --green: #1F6B4A;
-    --green-soft: #E1F0E8;
-    --cream: #FBF9F5;
-    --ink: #181A1B;
-    --muted: #6B6F72;
-    --rule: #DDD8CF;
+    /* The app icon's own blue and yellow, as in the app. */
+    --blue: #0141AD;
+    --blue-soft: #E3EBFA;
+    --yellow: #FFC700;
+    --paper: #F6F8FC;
+    --ink: #141A26;
+    --muted: #5F6675;
+    --rule: #D8DFEC;
   }
   * { box-sizing: border-box; }
   body {
@@ -24,8 +27,9 @@
   }
   .wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
 
-  header { background: var(--green); color: var(--cream); padding: 56px 0 48px; text-align: center; }
-  .glyph { font-size: 64px; font-weight: 700; line-height: 1; display: block; margin-bottom: 12px; letter-spacing: -0.02em; }
+  header { background: var(--blue); color: #fff; padding: 56px 0 48px; text-align: center; }
+  .icon { display: block; width: 112px; height: 112px; margin: 0 auto 20px; border-radius: 26px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); }
+  .word { color: var(--yellow); font-weight: 600; }
   header h1 { font-size: 2em; margin: 0 0 8px; font-weight: 700; }
   header p { margin: 0; font-size: 1.05em; opacity: 0.92; }
 
@@ -42,16 +46,16 @@
   td:first-child { width: 36%; color: var(--muted); }
 
   footer { padding: 32px 0 48px; font-size: 0.9em; color: var(--muted); }
-  a { color: var(--green); }
+  a { color: var(--blue); }
 </style>
 </head>
 <body>
 
 <header>
   <div class="wrap">
-    <span class="glyph">347</span>
+    <img class="icon" src="icon.png" alt="" width="112" height="112">
     <h1>Räkna på svenska</h1>
-    <p>trehundrafyrtiosju — count in Swedish, written out and spoken.</p>
+    <p><span class="word">trehundrafyrtiosju</span> — count in Swedish, written out and spoken.</p>
   </div>
 </header>
 
